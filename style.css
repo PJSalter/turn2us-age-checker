@@ -1,0 +1,12 @@
+/* 
+CSS Styling Here
+*/
+
+.ageCheck-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #98fb98;
+    text-shadow: 0.188rem 0.188rem 0 #3d0595;
+}
