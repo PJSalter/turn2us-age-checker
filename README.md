@@ -8,6 +8,8 @@
 
 - ###### :passport_control: if the user is less than 18 years old then they are directed onto another page. :underage:
 
+![age-check](https://user-images.githubusercontent.com/45575016/158279057-6005b7fb-7adb-4b5e-a864-f60377b002ca.gif)
+
 # Tasks:
 
 - [x] To break the tasks down into seperate user stories.
@@ -24,4 +26,6 @@
 - ### :no_entry_sign: page 3 - too young to apply for benefits.
 
 :birthday: [Age Checker hosted here]( https://pjsalter.github.io/turn2us-age-checker) :gift:
+
+![age-check2](https://user-images.githubusercontent.com/45575016/158279120-f5c9a428-9614-49c1-be3d-c1bf1d533ca3.gif)
 
