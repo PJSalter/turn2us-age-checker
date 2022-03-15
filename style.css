@@ -2,20 +2,39 @@
 CSS Styling Here
 */
 
+body{
+    background-color:#f9e09f;
+    padding: 0rem;
+    margin: 0.5rem;
+    box-sizing: border-box;
+}
+
 .ageCheck-title{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #CBC3E3;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    border: 1rem solid #3d0595;
     color: #98fb98;
-    font-size:2.5rem;
+    font-size: 2.5rem;
     text-shadow: 0.25rem 0rem 0rem #3d0595;
 }
 
 .age-container{
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 37.5rem;
     justify-content: center;
     align-items: center;
+    background-color: #035956;
 }
 
 .question{
@@ -24,6 +43,7 @@ CSS Styling Here
     justify-content: center;
     align-items: center;
     font-size:1.5rem;
+    border: 0.5rem solid #DB4914;
     color: #98fb98;
     background-color: #fdb14d;
     text-shadow: 0.25rem 0rem 0rem #3d0595;
@@ -40,6 +60,7 @@ CSS Styling Here
 }
 .title{
     font-size: 1.25rem;
+    color: #fdb14d;
 }
 
 input[type=text]{
@@ -74,9 +95,14 @@ input[type=text]:focus{
     justify-content: center;
     outline: none;
     color: #3d0595;
-    background-color:#98fb98;
-    border: 0.125rem solid #3d0595;
-    border-radius: 0.125rem;
+    background-color: #98fb98;
+    border: 0.5rem solid #CBC3E3;
+    border-radius: 1.15rem;
     padding: 0.875rem 1rem;
     font-size: 1.063rem;
+}
+
+.age-message{
+    padding-bottom: 1.25rem;
+    margin-top: 2.188rem;
 }
