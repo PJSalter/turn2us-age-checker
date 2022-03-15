@@ -71,6 +71,7 @@ input[type=text]:focus{
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.25rem;
+    justify-content: center;
     outline: none;
     color: #3d0595;
     background-color:#98fb98;
