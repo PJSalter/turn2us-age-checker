@@ -8,5 +8,72 @@ CSS Styling Here
     justify-content: center;
     align-items: center;
     color: #98fb98;
-    text-shadow: 0.188rem 0.188rem 0 #3d0595;
+    font-size:2.5rem;
+    text-shadow: 0.25rem 0rem 0rem #3d0595;
+}
+
+.age-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
+    color: #98fb98;
+    background-color: #fdb14d;
+    text-shadow: 0.25rem 0rem 0rem #3d0595;
+}
+
+.birth-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    float: left;
+    width: 10rem;
+    padding: 0.313rem 1.25rem;
+}
+.title{
+    font-size: 1.25rem;
+}
+
+input[type=text]{
+    width: 8.75rem;
+    margin: auto;
+    outline: none;
+    min-height: 3.125rem;
+    border: 0.125rem solid #b25b6e;
+    color: #7c3042;
+    background-color: #ffd1dc;
+    border-radius: 0.125rem;
+    font-size: 1.063rem;
+    padding: 0.20rem;
+}
+
+input[type=text]:focus{
+   background-color: #98fb98;
+   color: #3d0595;
+   border: 0.125rem solid #3d0595;
+}
+
+.btn{
+    margin-top: 8rem;
+}
+
+.submit-age{
+    display: flex;
+    width: 9.375rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.25rem;
+    outline: none;
+    color: #3d0595;
+    background-color:#98fb98;
+    border: 0.125rem solid #3d0595;
+    border-radius: 0.125rem;
 }
