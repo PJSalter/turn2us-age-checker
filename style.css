@@ -77,4 +77,6 @@ input[type=text]:focus{
     background-color:#98fb98;
     border: 0.125rem solid #3d0595;
     border-radius: 0.125rem;
+    padding: 0.875rem 1rem;
+    font-size: 1.063rem;
 }
