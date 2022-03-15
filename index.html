@@ -10,8 +10,41 @@
 <body>
     <section class="ageCheck-title">
     <h1>Age Checker</h1>
-    <p>Are you old enough?</p>
     </section>
+
+<section class="age-container">
+
+    <form>
+        <div class="question">
+            <h4>Are you old enough?</h4>
+        </div>
+        <div class="birth-container">
+           <!-- <p class="title">Date</p> -->
+            <label class="title" for="date">Date</label>
+            <input type="text" name="date" id="date" placeholder="DD" minlength="1" maxlength="2" required>
+        </div>
+
+        <div class="birth-container">
+            <!-- <p class="title">Date</p> -->
+             <label class="title" for="month">Month</label>
+             <input type="text" name="month" id="month" placeholder="MM" minlength="1" maxlength="2" required>
+         </div>
+
+         <div class="birth-container">
+            <!-- <p class="title">Date</p> -->
+             <label class="title" for="year">Year</label>
+             <input type="text" name="year" id="year" placeholder="YYYY" minlength="4" maxlength="4" required>
+         </div>
+
+         <div class="btn">
+            <button type="submit" class="submit-age" onclick="age()">Submit</button>
+        </div>
+           
+              <div class="age-message"></div>
+
+    </form>
+
+</section>
     
     <script src="script.js"></script>
 </body>
