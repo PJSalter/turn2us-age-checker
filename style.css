@@ -1,9 +1,21 @@
 /* 
 CSS Styling Here
 */
+:root{
+    --dark-purple: #3d0595;
+    --pastel-lilac: #CBC3E3;
+    --forrest-green: #035956;
+    --pastel-green: #98fb98;
+    --deep-tango: #DB4914;
+    --orange-sunset: #fdb14d;
+    --pale-gold: #f9e09f;
+    --burgundy-clr: #7c3042;
+    --mild-pale-pink: #b25b6e;
+    --pastel-pink: #ffd1dc;
+}
 
 body{
-    background-color:#f9e09f;
+    background-color: var(--pale-gold);
     padding: 0rem;
     margin: 0.5rem;
     box-sizing: border-box;
@@ -14,17 +26,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #CBC3E3;
+    background-color: var(--pastel-lilac);
     margin-left: auto;
     margin-right: auto;
     max-width: 30rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
     border-radius: 2rem;
-    border: 1rem solid #3d0595;
-    color: #98fb98;
+    border: 1rem solid var(--dark-purple);
+    color: var(--pastel-green);
     font-size: 2.5rem;
-    text-shadow: 0.25rem 0rem 0rem #3d0595;
+    text-shadow: 0.25rem 0rem 0rem var(--dark-purple);
 }
 
 .age-container{
@@ -34,7 +46,7 @@ body{
     max-width: 37.5rem;
     justify-content: center;
     align-items: center;
-    background-color: #035956;
+    background-color: var(--forrest-green);
 }
 
 .question{
@@ -43,10 +55,10 @@ body{
     justify-content: center;
     align-items: center;
     font-size:1.5rem;
-    border: 0.5rem solid #DB4914;
-    color: #98fb98;
-    background-color: #fdb14d;
-    text-shadow: 0.25rem 0rem 0rem #3d0595;
+    border: 0.5rem solid var(--deep-tango);
+    color: var(--pastel-green);
+    background-color: var(--orange-sunset);
+    text-shadow: 0.25rem 0rem 0rem var(--dark-purple);
 }
 
 .birth-container{
@@ -58,9 +70,10 @@ body{
     width: 10rem;
     padding: 0.313rem 1.25rem;
 }
+
 .title{
     font-size: 1.25rem;
-    color: #fdb14d;
+    color: var(--orange-sunset);
 }
 
 input[type=text]{
@@ -68,18 +81,18 @@ input[type=text]{
     margin: auto;
     outline: none;
     min-height: 3.125rem;
-    border: 0.125rem solid #b25b6e;
-    color: #7c3042;
-    background-color: #ffd1dc;
+    border: 0.125rem solid var(--mild-pale-pink);
+    color: var(--burgundy-clr);
+    background-color: var(--pastel-pink);
     border-radius: 0.125rem;
     font-size: 1.063rem;
     padding: 0.20rem;
 }
 
 input[type=text]:focus{
-   background-color: #98fb98;
-   color: #3d0595;
-   border: 0.125rem solid #3d0595;
+   background-color: var(--pastel-green);
+   color: var(--dark-purple);
+   border: 0.125rem solid var(--dark-purple);
 }
 
 .btn{
@@ -94,9 +107,9 @@ input[type=text]:focus{
     margin-top: 1.25rem;
     justify-content: center;
     outline: none;
-    color: #3d0595;
-    background-color: #98fb98;
-    border: 0.5rem solid #CBC3E3;
+    color: var(--dark-purple);
+    background-color: var(--pastel-green);
+    border: 0.5rem solid var(--pastel-lilac);
     border-radius: 1.15rem;
     padding: 0.875rem 1rem;
     font-size: 1.063rem;
