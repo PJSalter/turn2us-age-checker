@@ -20,8 +20,8 @@
         </div>
         <div class="birth-container">
            <!-- <p class="title">Date</p> -->
-            <label class="title" for="day">Day</label>
-            <input type="text" name="day" id="day" placeholder="DD" minlength="1" maxlength="2" required>
+            <label class="title" for="date">Day</label>
+            <input type="text" name="date" id="date" placeholder="DD" minlength="1" maxlength="2" required>
         </div>
 
         <div class="birth-container">
@@ -37,14 +37,15 @@
          </div>
 
          <div class="btn">
-            <button type="submit" class="submit-age" onclick="age()">Submit</button>
+            <button type="submit" class="submit-age">Submit</button>
         </div>
            
-              <div class="age-message"></div>
+              <div class="age-message" id="age-message"></div>
 
     </form>
-
 </section>
+
+<span class="granted">Benefits</span><span class="not">No Benefits</span>
     
     <script src="script.js"></script>
 </body>
