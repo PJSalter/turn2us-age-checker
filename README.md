@@ -1,6 +1,4 @@
-# :birthday: turn2us-age-checker :date:
-
-### for the Turn2Us Apprentice Technical Test I have been tasked in creating these features:
+# :birthday: age-checker :date:
 
 - ###### :calendar: Making a basic home page with an age checker.
 
